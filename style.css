@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: opacity 0.35s ease;
 }
 .nav-overlay.active {
-    opacity: 1;
+    /*opacity: 1;*/
     pointer-events: auto;
 }
 
@@ -1815,7 +1815,7 @@ h1, h2, h3, h4, h5, h6 {
     .footer-grid { grid-template-columns: repeat(2, 1fr); }
     .contact-grid { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; text-align: center; }
-    .founder-photo-container { margin: 0 auto; }
+    .founder-photo-container { margin: 0 auto;margin-bottom: 50px; }
     .skill-info { gap: 15px; }
 }
 
